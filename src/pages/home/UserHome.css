@@ -1,0 +1,11 @@
+.userHome {
+  flex: 4;
+}
+
+.userHomeWrapper {
+  margin: 20px 30px;
+}
+
+.userHomeTopContainer {
+  display: flex;
+}

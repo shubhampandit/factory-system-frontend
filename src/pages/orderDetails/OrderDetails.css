@@ -1,0 +1,54 @@
+.orderDetails {
+  flex: 4;
+}
+
+.orderDetailsContainer {
+  margin: 10px 20px;
+}
+
+.orderDetailsTopContainer {
+  display: flex;
+}
+
+.productDetailsCard {
+  flex: 1;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.orderDetailsBottomContainer {
+  display: flex;
+  margin-top: 30px;
+}
+
+.orderStatusCard {
+  flex: 2;
+  margin-right: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.orderProductCard {
+  flex: 1;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.productChartTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.productDetailTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}

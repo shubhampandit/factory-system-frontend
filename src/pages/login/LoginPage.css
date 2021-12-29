@@ -1,0 +1,9 @@
+.loginPage {
+  flex: 4;
+  padding: 60px 0;
+}
+
+.loginPage form {
+  margin: 0 auto;
+  max-width: 320px;
+}

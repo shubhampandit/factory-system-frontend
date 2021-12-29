@@ -1,0 +1,14 @@
+.createCompanyPage {
+  flex: 4;
+}
+
+.createCompanyBottomContainer {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 26px;
+}
+
+.createCompanyButton {
+  margin-right: 5px;
+}

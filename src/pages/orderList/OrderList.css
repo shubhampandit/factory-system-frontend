@@ -1,0 +1,25 @@
+.orderList {
+  flex: 4;
+}
+
+.orderListTopContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.orderListTitle {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.orderListButton {
+  font-size: 20px;
+  padding: 3px 20px;
+}
+
+.orderListTable {
+  width: 100%;
+  height: 600px;
+}

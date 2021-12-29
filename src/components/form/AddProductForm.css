@@ -1,0 +1,43 @@
+.addProductFormContainer {
+  padding: 15px;
+}
+
+/* .addProductUpperContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.createProductLabel {
+  font-weight: 600;
+}
+
+.createProductMiddleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.billWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.productBillItem {
+  margin-right: 30px;
+  text-align: right;
+}
+
+.billTitle {
+  font-weight: bold;
+}
+
+.billSpacing {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.addProductAddButton {
+  margin-right: 10px;
+  padding: 8px 26px;
+}

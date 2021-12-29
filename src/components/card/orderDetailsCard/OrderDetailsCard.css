@@ -1,0 +1,27 @@
+.orderDetailsCard {
+  flex: 1;
+  margin-right: 20px;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.orderDetailsCardNameValueContainer {
+  display: flex;
+}
+
+.orderDetailsCardTitle {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.orderDetailsCardValue {
+  margin-left: 5px;
+}
+
+.orderDetailsCardNameContainer {
+  width: 200px;
+}

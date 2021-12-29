@@ -1,0 +1,13 @@
+.createProduct {
+  flex: 4;
+}
+
+.createProductBottomContainer {
+  display: flex;
+  align-items: center;
+}
+
+.createProductButton {
+  margin-right: 7px;
+  margin-left: 22px;
+}
