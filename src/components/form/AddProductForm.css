@@ -20,6 +20,10 @@
 .billWrapper {
   display: flex;
   align-items: center;
+  background-color: rgb(238, 238, 238);
+  padding: 15px 20px;
+  border-radius: 10px;
+  width: 275px;
 }
 
 .productBillItem {
@@ -28,7 +32,9 @@
 }
 
 .billTitle {
-  font-weight: bold;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(105, 105, 105);
 }
 
 .billSpacing {
@@ -40,4 +46,15 @@
 .addProductAddButton {
   margin-right: 10px;
   padding: 8px 26px;
+}
+
+.billValue {
+  font-size: 15px;
+  color: rgb(105, 105, 105);
+}
+
+.totalBill,
+.totalValue {
+  font-size: 18px;
+  margin-top: 20px;
 }

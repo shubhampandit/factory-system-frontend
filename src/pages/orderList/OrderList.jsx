@@ -20,9 +20,9 @@ function OrderList() {
   }, []);
 
   const columns = [
-    { field: "orderId", headerName: "Order ID", width: 300 },
-    { field: "companyName", headerName: "Company Name", width: 300 },
-    { field: "assignedTo", headerName: "Assigned To", width: 300 },
+    { field: "orderId", headerName: "Order ID", width: 220 },
+    { field: "companyName", headerName: "Company Name", width: 380 },
+    { field: "assignedTo", headerName: "Assigned To", width: 250 },
     { field: "orderStatus", headerName: "Order Status", width: 260 },
   ];
 
@@ -36,17 +36,15 @@ function OrderList() {
           </Button>
         </Link>
       </div>
-      <Grid container>
-        <Grid item xs={12} style={{ height: 608 }}>
-          <DataGrid
-            rows={data}
-            columns={columns}
-            pageSize={5}
-            rowsPerPageOptions={[5]}
-            checkboxSelection
-          />
-        </Grid>
-      </Grid>
+      <div className="orderListBottomContainer">
+        <DataGrid
+          rows={data}
+          columns={columns}
+          pageSize={5}
+          rowsPerPageOptions={[5]}
+          checkboxSelection
+        />
+      </div>
     </div>
   );
 }

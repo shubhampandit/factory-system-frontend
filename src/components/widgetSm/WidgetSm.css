@@ -4,4 +4,38 @@
   box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
   padding: 20px;
   margin-right: 20px;
+  border-radius: 10px;
+}
+
+.widgetSmTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.widgetSmItemWrapper {
+  padding: 0px 4px;
+}
+
+.widgetSmItem {
+  border-radius: 10px;
+  padding: 8px 15px;
+  background-color: #eeecec;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.productWrapper {
+  text-align: left;
+}
+
+.itemTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: rgb(172, 171, 171);
+}
+
+.itemName {
+  font-size: 17px;
 }

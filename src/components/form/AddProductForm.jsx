@@ -204,15 +204,17 @@ function AddProductForm(props) {
 
                 <h5 className="billTitle">Cutting Cost</h5>
                 <h5 className="billTitle">Loading Cost</h5>
-                <h5 className="billTitle">Total Cost</h5>
+                <h5 className="billTitle totalBill">Total Cost</h5>
               </div>
               <div className="productBillValue">
-                <h5>{`Rs. ${handleProductPrice()}`}</h5>
-                {isBasic && <h5>{`Rs. ${handleProductGuessDiff()}`}</h5>}
+                <h5 className="billValue">{`Rs. ${handleProductPrice()}`}</h5>
+                {isBasic && (
+                  <h5 className="billValue">{`Rs. ${handleProductGuessDiff()}`}</h5>
+                )}
 
-                <h5>{`Rs. ${handleCuttingCost()}`}</h5>
-                <h5>{`Rs. ${handleLoadingCost()}`}</h5>
-                <h5>{`Rs. ${handleTotalCost()}`}</h5>
+                <h5 className="billValue">{`Rs. ${handleCuttingCost()}`}</h5>
+                <h5 className="billValue">{`Rs. ${handleLoadingCost()}`}</h5>
+                <h5 className="billValue totalValue">{`Rs. ${handleTotalCost()}`}</h5>
               </div>
             </div>
           </div>
