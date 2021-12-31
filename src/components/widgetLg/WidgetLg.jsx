@@ -4,7 +4,7 @@ import OrderService from "../../service/OrderService";
 import { Link } from "react-router-dom";
 
 const StatusButton = ({ type }) => {
-  return <button className={"widgetLgButton " + type}>{type}</button>;
+  return <span className={"widgetLgButton " + type.trim()}>{type}</span>;
 };
 
 class WidgetLg extends Component {
@@ -38,7 +38,9 @@ class WidgetLg extends Component {
             {this.state.orders.map((order) => (
               <tr key={order.orderId} className="widgetLgTr">
                 <td className="widgetLgOrderId">
-                  <Link to={`/order/${order.orderId}`}>{order.orderId}</Link>
+                  <Link to={`/order/${order.orderId}`} className="order-id">
+                    {order.orderId}
+                  </Link>
                 </td>
                 <td className="widgetLgCompanyName">{order.companyName}</td>
                 <td className="widgetLgAssignedTo">{order.assignedTo}</td>
